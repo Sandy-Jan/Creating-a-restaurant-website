@@ -1,0 +1,378 @@
+
+
+
+nav{
+    border-radius: 15px;
+    display: flex;
+    font-family: 'nirmala-ui-regular', sans-serif;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    color: white;
+    border: 1px 1px white solid;
+    box-shadow: 5px 5px 2px rgba(187, 181, 181);
+    background-color: #8F4903;
+    background-size: cover;
+}
+
+nav> h1{
+    font-size: 410%;
+    position: relative;
+    left: 100px;
+    text-shadow: 0 0 12px #F96D03;
+}
+nav> h1:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+    color: #546E7A;
+    text-shadow: 0 0 12px white;
+}
+nav> .left-container-icon{
+    color: white;
+    position: relative;
+    top: 60px;
+    font-size: 100%;
+    transition: 0.8s;
+    
+}
+nav> .left-container-icon:hover{
+    color: yellow;
+    cursor: pointer;
+    opacity: 0.7;
+}
+nav > .right-container-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: self-end;
+
+}
+
+nav > .right-container-icons> a{
+    
+    display: block;
+    
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+    }
+nav > .right-container-icons> a:hover{
+    color: yellow;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.image{
+    border-radius: 15px;
+    color: white;
+    margin: 5px 0px;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 400px;
+    width: 1350px;
+}
+.about{
+    height: 400px;
+    width: auto;
+    overflow: auto; 
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(219, 197, 170);
+    border-radius: 15px;
+    padding: 15px;
+}
+.one{
+
+    border: 2px solid grey;
+    height: 120px;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 140%;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 0 0 10px;
+    color:white;
+    background-color: #6B1401;
+    text-shadow: 0 0 10px rgb(131, 123, 123);
+}
+
+.two{
+    border: 2px solid grey;
+    height: 120px;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 140%;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 0 0 10px;
+    color:white;
+    background-color: #6B1401;
+    text-shadow: 0 0 10px rgb(255, 164, 164);
+}
+
+.three{
+    border: 2px solid grey;
+    height: 120px;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 140%;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 0 0 10px;
+    color:white;
+    background-color: #6B1401;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+  
+}
+
+#nature{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    
+}
+#nature >.order-online{
+    color:white;
+    height: 200px;
+    width: 670px;
+    border: 2px solid black;
+    border-radius: 15px 0 0 15px;
+    background-image: url(https://images.unsplash.com/photo-1631515242808-497c3fbd3972?q=80&w=1532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 670px 200px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+#nature >.order-online:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+#nature >.order{
+    margin: 2px;
+    height: 200px;
+    width: 90px;
+    border-radius: 0 15px 15px 0;
+    background-color: #C7A500;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+}
+#nature >.order:hover{
+    cursor: pointer;
+}
+
+#nature >.dine-in{
+   
+    height: 200px;
+    width: 670px;
+    border: 2px solid ;
+    border-radius: 15px 0 0 15px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/937/81/291/philadelphia-hdr-indoors-table-wallpaper-preview.jpg);
+    background-size: 670px 200px;
+    transform: 5s;
+    box-shadow: 5px 5px 2px grey;
+}
+#nature >.dine-in:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+#nature >.dine{
+    margin: 2px;
+    height: 200px;
+    width: 90px;
+    border-radius: 0 15px 15px 0;
+    background-color: #C7A500;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 5px 5px 2px grey;
+} 
+#nature >.dine:hover{
+   cursor: pointer;
+}
+.our-cusine{
+    height: 440px;
+    width: auto;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 5px 5px 2px grey;
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+    background-color: #EBA061;
+    padding: 10px;
+}
+.dish1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+    
+}
+.ek{
+    width: 210px;
+    height: 155px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    text-align: left;
+    box-shadow: 5px 5px 4px whitesmoke;
+   
+}
+.dish2{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+}
+.do{
+    margin-top: 5px;
+    width: 210px;
+    height: 159px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    box-shadow: 5px 5px 4px whitesmoke;
+}
+.dish3{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+}
+.teen{
+    width: 210px;
+    height: 195px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    box-shadow: 5px 5px 4px whitesmoke;
+}
+.dish4{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/c21624eac87ed1c8c87ef1ea52980ded1632716659.png);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+}
+.chaar{
+    width: 210px;
+    height: 195px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    box-shadow: 5px 5px 4px whitesmoke;
+
+}
+.dish5{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+}
+.panch{
+    width: 210px;
+    height: 195px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    box-shadow: 5px 5px 4px whitesmoke;
+}
+.dish6{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png);
+    background-size: cover;
+    box-shadow: 5px 5px 4px #A94B18;
+}
+.chaah{
+    width: 210px;
+    height: 197px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 198px;
+    border-radius: 0 55px 55px 0 ;
+    box-shadow: 5px 5px 4px whitesmoke;
+}
+.footer{
+    font: 0.5em sans-serif;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width:768px) {
+    nav{
+        width: 100%;
+        height: 290px;
+    }
+   
+    .one{
+        width:100%;
+        height: 290px;
+    }
+    .two{
+        width:100%;
+        height: 290px;
+    }
+    .three{
+        width:100%;
+        height: 290px;
+    }
+    .our-cusine {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        height: auto;
+        width: 100%;
+    }
+    #nature {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+
+
+
+
+
+
+
+
+}
